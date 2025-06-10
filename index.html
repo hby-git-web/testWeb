@@ -1,26 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
- <title>商品详情 - 海信激光电视</title>
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <style>
-     .container { max-width: 800px; margin: 0 auto; padding: 20px }
-     .product-img { width: 100%; height: auto }
- </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>白毫银针商品详情</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .product-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background: ##808080;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            position: relative;
+        }
+
+        .brand-info {
+            border-top: 1px solid #eee;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        .brand-name {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .product-title {
+            font-size: 22px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 12px;
+        }
+
+        .brand-title {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+    </style>
 </head>
 <body>
- <div class="container">
-     <h1>海信激光电视100L9H</h1>
-     <img src="tv.jpg" class="product-img" alt="产品图">
-     <div class="specs">
-         <h2>核心参数</h2>
-         <ul>
-             <li>屏幕尺寸：100英寸</li>
-             <li>分辨率：4K超高清</li>
-             <li>色域覆盖率：107% BT.2020</li>
-             <li>音响系统：哈曼卡顿2.1声道</li>
-         </ul>
-     </div>
- </div>
+    <div class="product-container">
+        
+        <div class="brand-info">
+            <div class="brand-title">产品名称：</div>
+            <div class="brand-name">白毫银针</div>
+        </div>
+       
+        <div class="brand-info">
+            <div class="brand-title">产品规格：</div>
+            <div class="brand-name">500克</div>
+        </div>
+
+        <div class="brand-info">
+            <div class="brand-title">建议零售价：</div>
+            <div class="brand-name">4888元</div>
+        </div>
+
+    </div>
 </body>
 </html>
